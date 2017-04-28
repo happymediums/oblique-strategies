@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Tiny Books · Oblique Strategies</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Roboto" rel="stylesheet">
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+</head>
+
+
+<body>
+
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+
+  <div class="row">
+
+    <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3">
+
+    </div>
+
+    <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+
+            <div class="container">
+          <div class="card fade-in">
+            <p id="randomStrategy"></p>
+          </div> <!-- /card -->
+          </div> <!-- /container -->
+
+    </div>
+
+    <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3">
+
+    </div>
+
+
+  </div> <!-- Close Row -->
+
+
+<div class="row">
+
+  <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3">
+
+  </div>
+
+  <div class="col-xs-10 col-sm-8 col-md-6 col-lg-6">
+
+    <button type="button" class="btn" onClick="refreshPage()">Get a new strategy</button>
+  </div>
+
+  <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3">
+
+  </div>
+
+</div>  <!-- Close Row -->
+
+
+<div class="rocket">
+  <div class="rocket-body"></div>
+    <div class="rocket-flame"></div>
+</div>
+
+<script>
+  function refreshPage(){
+      window.location.reload();
+}
+</script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+
+<!-- Thanks to Chris Murphy for the Oblique Strategies quotes, and for the javascript randomizer,
+     Saransh Sinah for the CSS animated stars and kristofer Joseph for FlexBoxGrid.
+
+    Find them at..
+
+    Saransh at http://codepen.io/saransh, and the related pen http://codepen.io/saransh/pen/BKJun
+
+    Chris Murphy at http://tinybooks.org
+
+    Kristofer Joseph at http://kristoferjoseph.com, and FlexBoxGrid at http://flexboxgrid.com
+
+  -->
