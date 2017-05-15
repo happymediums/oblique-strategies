@@ -205,6 +205,8 @@ animation-duration:1s;
 }
 
 button {
+  position: relative;
+  z-index: 999999;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
